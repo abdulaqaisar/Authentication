@@ -1,0 +1,30 @@
+.signup-page{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 70vh;
+    /* justify-content: center; */
+    margin: 50%;
+    background-color: aquamarine;
+    border: 10px solid aquamarine;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.em{
+    font-size: large;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.email,.password{
+    height: 6vh;
+    margin-top: 10px;
+    outline: none;
+}
+.btn{
+    margin-top: 30px;
+    width: 60%;
+    outline: white;
+    border: white;
+    background-color: whitesmoke;
+}
